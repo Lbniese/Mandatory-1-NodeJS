@@ -3,7 +3,7 @@ const express = require('express');
 // instantiate express
 const app = express();
 // define which port to listen on
-const port = 8080;
+const port = process.env.PORT || 8080;
 // path
 const path = require('path');
 
