@@ -47,10 +47,55 @@
 
     app.get('/', (req, res) => { 
         res.send("GET Request Called") 
-        }) 
+        }); 
                             </code></pre>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">unix</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">js</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">app.post() Function</h3>
+                            <div class="subheading mb-3">This function routes the HTTP POST requests to the specified path with the specified callback functions.</div>
+                            <pre><code>
+    var express = require('express');
+    var app = express();
+
+    app.post('/', (req, res) => { 
+        res.send("POST Request Called") 
+      }); 
+                            </code></pre>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">js</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">app.put() Function</h3>
+                            <div class="subheading mb-3">The app.put() function routes the HTTP PUT requests to the specified path with the specified callback functions.</div>
+                            <pre><code>
+    var express = require('express');
+    var app = express();
+
+    app.put('/', (req, res) => { 
+        res.send("PUT Request Called") 
+      });
+                            </code></pre>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">js</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">app.delete() Function</h3>
+                            <div class="subheading mb-3">The app.delete() function is used to route the HTTP DELETE requests to the path which is specifed as parameter with the callback functions being passed as parameter.</div>
+                            <pre><code>
+    var express = require('express');
+    var app = express();
+
+    app.delete('/', (req, res) => { 
+        res.send("DELETE Request Called") 
+      }); 
+                            </code></pre>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">js</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
@@ -70,7 +115,7 @@
     });
                             </code></pre>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">win</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">js</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
@@ -89,7 +134,7 @@
     app.listen(8080);
                             </code></pre>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">npm</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">js</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
@@ -102,7 +147,7 @@
         });
                             </code></pre>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">npm</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">js</span></div>
                     </div>
             </section>
             <hr class="m-0" />
