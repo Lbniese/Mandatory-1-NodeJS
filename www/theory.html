@@ -143,7 +143,17 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">GET routes in Express</h3>
                             <div class="subheading mb-3">How does GET routes in Express work?</div>
-                            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+                            <p>Routing refers to determining how an application responds to a client request to a particular endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, and so on).</p>
+                            <p>Each route can have one or more handler functions, which are executed when the route is matched.</p>
+                            <p>Route definition takes the following structure:</p>
+                            <pre><code>app.METHOD(PATH, HANDLER)</code></pre>
+                            <ul>
+                                <li>app is an instance of express.</li>
+                                <li>METHOD is an HTTP request method, in lowercase.</li>
+                                <li>PATH is a path on the server.</li>
+                                <li>HANDLER is the function executed when the route is matched.</li>
+                              </ul>
+                            <span>Code examples can be found </span><a href="/codesnippets">here</a>
                         </div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
