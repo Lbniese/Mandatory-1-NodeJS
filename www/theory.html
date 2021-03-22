@@ -45,6 +45,7 @@
                             <p>There are six most common data types in JavaScript which are deivided into three categories: primitive, composite and special data types.</p>
                             <p>String, Number and Boolean are primitive data types. Object, Array and Function (which are types of objects) are composite data types. Data types like Undefined and Null are special data types.</p>
                             <p>Primitive data types can hold one value at a time, while composite data types can hold collections of values and more complex entities.</p>
+                            <!--
                             <br>
                             <h4 class="mb-0">String</h4>
                             <p>A string data type represents textual data. Strings are created using single or double quotes surrounding one or more characters.</p>
@@ -52,20 +53,90 @@
  var a = 'Welcome!';  // using single quotes
  var b = "Welcome!";  // using double quotes
                             </code></pre>
+                        -->
                         </div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Node.js</h3>
                             <div class="subheading mb-3">What is Node.js? And how does one run files with it?</div>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                            <p>Node. js is primarily used for non-blocking, event-driven servers, due to its single-threaded nature. It's used for traditional web sites and back-end API services, but was designed with real-time, push-based architectures in mind.</p>
+                            <h5 class="mb-0">Run Node.js scripts from the command line</h5>
+                            <p>The usual way to run a Node.js program is to run the node globally available command (once you install Node.js) and pass the name of the file you want to execute.</p>
+                            <p>If your main Node.js application file is app.js, you can call it by typing:</p>
+                            <pre><code>
+ node app.js
+                                                           </code></pre>
+                            <p>While running the command, make sure you are in the same directory which contains the app.js file.</p>
                         </div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">CRUD REST API</h3>
-                            <div class="subheading mb-3">The philosphy behind Restful APIs</div>
-                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+                            <div class="subheading mb-3">What is CRUD and REST?</div>
+                            <h5 class="mb-0">CRUD</h5>
+                            <p>Create, Read, Update, and Delete - or CRUD - are 4 functions used to interact with database applications. Many programming languages and protocols have their own equivalent of CRUD, with very similar namings. SQL's CRUD equivilant is for example called Insert, Select, Update and Delete.</p>
+                            <h5 class="mb-0">Functions</h5>
+                            <table class="table">
+                                <thead class="thead-dark">
+                                  <tr>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Description</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">Create</th>
+                                    <td>Adds one or more new entries</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Read</th>
+                                    <td>Retrieves entries that match certain criteria (if there are any)</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Update</th>
+                                    <td>Changes specific fields in existing entries</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Delete</th>
+                                    <td>Entirely removes one or more existing entries</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              <br>
+                              <h5 class="mb-0">CRUD</h5>
+                              <p>Representational State Transfer - or REST - is the popular architectural style for software, used a lot in web APIs. It's defined by five design constraints that produce an application with specific properties, including performance, simplicitiy, and reliability.</p>
+                              <h5 class="mb-0">Constraints</h5>
+                              <table class="table">
+                                <thead class="thead-dark">
+                                  <tr>
+                                    <th scope="col">Term</th>
+                                    <th scope="col">Description</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">Client-Server</th>
+                                    <td>The client and server act independently.</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Stateless</th>
+                                    <td>The server does not record the state of the client.</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Cacheable</th>
+                                    <td>The server marks whether data is cacheable.</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Uniform Interface</th>
+                                    <td>The client and server interact in a uniform and predictable way. An important aspect of this is that the server exposes resources.</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Layered System</th>
+                                    <td>The application behaves the same regardless of any intermediaries between the client and server.</td>
+                                  </tr>
+                                </tbody>
+                              </table>
                         </div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
